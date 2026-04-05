@@ -14,6 +14,10 @@ public class LocatorsCRM {
     public static String alertInvalidEmailOrPassword="//div[@id='alerts']/div";
     public static String alertRequirePassword ="//div[contains(@class,'alert-danger') and text()='The Password field is required.']";
     public static String alertRequireEmail="//div[contains(@class,'alert-danger') and text()='The Email Address field is required.']";
+    // List option
+    public static String listOptionMenu ="//ul[@id=\"side-menu\"]/li[contains(@class,'menu-item')]";
+    public static String listWidgetDashboard="//div[@id='widget-top_stats']//div[contains(@class,'quick-stats')]//span[contains(@class,'tw-truncate')]";
+    public static String listOverviewDashboard="//div[@id='widget-finance_overview']//span[contains(@class,'tw-font-medium')]";
 
     public static String dropdownGroup="//button[@data-id=\'groups_in[]\']";
     public static String inputSearchCustomer ="//button[@data-id='groups_in[]']/following-sibling::div//input";
